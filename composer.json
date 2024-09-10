@@ -1,0 +1,24 @@
+{
+    "name": "oldak7/bracket-checker",
+    "type": "library",
+    "description": "CLI приложение для проверки скобок",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Almaz Karimov",
+            "email": "almaz.karimovriddle@mail.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "oldak7/bracket-validator": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "bin": [
+        "src/cli.php"
+    ]
+}
