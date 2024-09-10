@@ -3,6 +3,7 @@
     "type": "library",
     "description": "CLI приложение для проверки скобок",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Almaz Karimov",
