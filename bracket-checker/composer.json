@@ -1,0 +1,15 @@
+{
+    "name": "oldak7/bracket-checker",
+    "description": "CLI приложение для проверки скобок",
+    "require": {
+        "oldak7/bracket-validator": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "bin": [
+        "src/cli.php"
+    ]
+}
